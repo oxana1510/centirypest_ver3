@@ -1,0 +1,7 @@
+@mixin border-absolute{
+	position: absolute;
+	content: "";
+	width: 1000%;
+	height: 100%;
+	top: 0;
+}

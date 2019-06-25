@@ -1,0 +1,112 @@
+.block-slider{
+	position: relative;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff8f07), color-stop(20%, #ffa617), color-stop(40%, #ffbb24), color-stop(60%, #ffbb24),to(#ff8a04));
+	background: -webkit-linear-gradient(#ff8f07 0%, #ffa617 20%, #ffbb24 40%, #ffbb24 60%,#ff8a04 100%);
+	background: -o-linear-gradient(#ff8f07 0%, #ffa617 20%, #ffbb24 40%, #ffbb24 60%,#ff8a04 100%);
+	background: linear-gradient(#ff8f07 0%, #ffa617 20%, #ffbb24 40%, #ffbb24 60%,#ff8a04 100%);
+	.container{
+		padding: 7rem 0 26rem;
+
+	}
+	h5{
+		padding: 0 2rem 8rem;
+	}
+	.slick-slider{
+		position: static;
+	}
+	.slider{
+		overflow: hidden;
+		.slick-active{
+			&:nth-of-type(even){
+				-webkit-box-shadow: -1px 0px 0px 0px rgba(255, 255, 255, 0.3), 1px 0px 0px 0px rgba(255, 255, 255, 0.3);
+				        box-shadow: -1px 0px 0px 0px rgba(255, 255, 255, 0.3), 1px 0px 0px 0px rgba(255, 255, 255, 0.3);
+			}
+		}
+		.slick-slide{
+			text-align: center;
+			span{
+				font-size: 2.8rem;
+				color: #121212;
+				font-weight: 800;
+				padding-top: 2.5rem;
+			}
+			img{
+				margin: auto;
+			}
+		}
+	}
+	.bg-line{
+		&:after,
+		&:before{
+			border-bottom: 12vw solid #ff8f07; 
+		}
+	}
+	.slick-next,
+	.slick-prev{
+		width: 0;
+		z-index: 99;
+		top: 38%;
+
+	}
+	 .slick-next:after,
+	 .slick-prev:after{
+	 	content: "";
+	 	position: absolute;
+	 	display: block;
+	    border-bottom: 70px solid  #121212;
+		border-left: 30px solid transparent;
+		border-right: 30px solid transparent;
+		height: 0;
+		width: 60px;
+		opacity: 1;
+		z-index: -1;
+	}
+	.slick-next{
+		right: -2.5rem;
+		&:after{
+			-webkit-transform: rotate(-90deg);
+			    -ms-transform: rotate(-90deg);
+			        transform: rotate(-90deg);
+			right: 100%;
+		}
+	}
+	.slick-prev{
+		left: -2.5rem;
+		&:after{
+			-webkit-transform: rotate(90deg);
+			    -ms-transform: rotate(90deg);
+			        transform: rotate(90deg);
+			left: 100%;
+		}
+	}
+	 .slick-next:before,
+	 .slick-prev:before{
+	 	position: absolute;
+	 	width: 1.6rem;
+		height: 3.1rem;
+		opacity: 1;
+		top: 3rem;
+	 }
+	 .slick-next:before{
+	 	content: url(../img/slide-right.svg);
+	 	right: 5rem;
+	 	
+	 }
+	 .slick-prev:before{
+	 	content: url(../img/slide-left.svg);
+	 	left: 5rem;
+	 }
+}
+
+@media screen and (max-width: 992px){
+.block-slider .slider{
+	.slick-next{
+		right: -5rem;
+	}
+	.slick-prev{
+		left: -5rem;
+	}
+}
+}
+
+

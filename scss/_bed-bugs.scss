@@ -1,0 +1,65 @@
+.bed-bugs{
+	margin-top: -30rem;
+	background: url(../img/bed-bugs.png) center bottom no-repeat;
+	background-size: cover;
+	.container{
+		padding: 40rem  7rem 25rem;
+		position: relative;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+	}
+	.man{
+		position: absolute;
+		top: -27.5rem;
+		left: calc(50% + 6rem);
+	}
+	h2{
+		font: 5rem/4.5rem $font-bold2;
+		color: #fff;
+		padding-right: 2rem;
+	}
+}
+@media screen and (max-width: 1020px){
+.bed-bugs{
+	.container{
+		padding: 40rem  2.5rem 25rem;
+	}
+	.man{
+		top: -16rem;
+		left: calc(50% + 17rem);
+		img{
+			width: 27.3rem;
+			height: auto;
+		}
+	}
+}
+}
+@media screen and (max-width: 576px){
+.bed-bugs{
+	.container{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		padding: 34rem 2.5rem 18rem;
+	}
+	h2{
+		padding-right: 0;
+		padding-bottom: 2rem;
+	}
+	.man{
+	 	width: 27.3rem;
+	 	left: 0;
+	 	right: 0;
+	 	top: -11.8rem;
+	 	margin: auto;
+	}
+}
+}

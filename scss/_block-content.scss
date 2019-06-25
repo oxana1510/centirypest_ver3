@@ -1,0 +1,39 @@
+.block-content{
+	position: relative;
+	top: .5rem;
+	background: url(../img/block-two.jpg) no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	color: #fff;
+	.bg-line{
+		&:after,
+		&:before{
+			border-bottom: 12vw solid #910e12;
+		}
+	}
+	.container{
+		padding: 9rem 2.5rem 36rem;
+		max-width: 101rem;
+		text-align: center;
+	}
+	.title{
+		color: #fff;
+		padding-bottom: 1.5rem;
+	}
+	.bth-link{
+		background:  #242c3f;
+		&:hover{
+			color: #242c3f;
+			background: #fff;
+			border-color: #242c3f;
+		}
+	}
+	p{
+		font-size: 1.7rem;
+		line-height: 2.7rem;
+		padding-top: 3rem;
+	}
+	.romb-bg1{
+		bottom: .5rem;
+	}
+}

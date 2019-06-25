@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?33683401');
+  src: url('../fonts/fontello.eot?33683401#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?33683401') format('woff2'),
+       url('../fonts/fontello.woff?33683401') format('woff'),
+       url('../fonts/fontello.ttf?33683401') format('truetype'),
+       url('../fonts/fontello.svg?33683401#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-google:before { content: '\e801'; } /* '' */
+.icon-play:before { content: '\e802'; } /* '' */
+.icon-right-circle:before { content: '\e804'; } /* '' */
+.icon-right-open:before { content: '\e805'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+
+
+@font-face {
+	font-family: "NimbusSansTBold";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NimbusSansTBoldCondensed.eot");
+    src: url("../fonts/NimbusSansTBoldCondensed.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NimbusSansTBoldCondensed.woff2") format("woff2"),
+    url("../fonts/NimbusSansTBoldCondensed.woff") format("woff"),
+    url("../fonts/NimbusSansTBoldCondensed.ttf") format("truetype"),
+     url("../fonts/NimbusSansTBoldCondensed.svg#NimbuSanTBolCon") format("svg");
+}
+@font-face{
+    font-family: "HelveticaNeueBold";
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+}
+
+@font-face {font-family: "HelveticaNeue55Roman";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeue55Roman.eot");
+    src: url("../fonts/HelveticaNeue55Roman.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeue55Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue55Roman.woff") format("woff"),
+    url("../fonts/HelveticaNeue55Roman.ttf") format("truetype"),
+    url("../fonts/HelveticaNeue55Roman.svg#Helvetica Neue") format("svg");
+}
+
+@font-face {font-family: "AkzidenzGroteskPro-Bold";
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/AkzidenzGroteskPro-Bold.eot");
+    src: url("../fonts/AkzidenzGroteskPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HAkzidenzGroteskPro-Bold.woff2") format("woff2"),
+    url("../fonts/AkzidenzGroteskPro-Bold.woff") format("woff"),
+    url("../fonts/AkzidenzGroteskPro-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: "TahomaBold";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/TahomaBold.eot");
+    src: url("../fonts/TahomaBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TahomaBold.woff2") format("woff2"),
+    url("../fonts/TahomaBold.woff") format("woff"),
+    url("../fonts/TahomaBold.ttf") format("truetype"),
+    url("../fonts/TahomaBold.svg#Tahoma") format("svg");
+}
+@font-face {font-family: "TahomaRegular";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/TahomaRegular.eot");
+    src: url("../fonts/TahomaRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TahomaRegular.woff2") format("woff2"),
+    url("../fonts/TahomaRegular.woff") format("woff"),
+    url("../fonts/TahomaRegular.ttf") format("truetype"),
+    url("../fonts/TahomaRegular.svg#Tahoma") format("svg");
+}
+
+$font-bold1: "HelveticaNeueBold", sans-serif;
+$font-bold2: "NimbusSansTBold", sans-serif;
+$font-bold3: "AkzidenzGroteskPro-Bold", sans-serif;
+$font-bold4: "TahomaBold", sans-serif;
+$font: "HelveticaNeue55Roman", sans-serif;
+$font2: "TahomaRegular", sans-serif;
